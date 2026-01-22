@@ -160,11 +160,3 @@ cilium config view | grep tunnel
 
 > **Encapsulation protocols let pods communicate across nodes without requiring the physical network to understand pod IPs.**
 
-If you want, I can:
-
-* Show **packet captures (tcpdump)** of VXLAN traffic
-* Compare **Calico vs Cilium encapsulation**
-* Explain **how kube-proxy / eBPF interacts with encapsulation**
-* Help you choose the **right mode for your cluster**
-
-Just say the word 🚀
